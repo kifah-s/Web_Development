@@ -1,0 +1,42 @@
+:root {
+  --main-color: rgb(255 255 255 / 80%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #333;
+}
+
+p {
+  color: var(--main-color);
+  font-size: 30px;
+  width: 0px;
+  margin: 30px auto;
+  border-right: 2px solid var(--main-color);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: control-width 3s steps(25) 2s both, blink 0.5s infinite;
+}
+
+@keyframes control-width {
+  form {
+    width: 0;
+  }
+  to {
+    width: 355px;
+  }
+}
+
+@keyframes blink {
+  form {
+    border-right-color: var(--main-color);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}

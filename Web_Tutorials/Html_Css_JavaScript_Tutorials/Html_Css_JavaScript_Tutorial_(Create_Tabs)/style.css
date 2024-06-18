@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px;
+}
+
+.tabs {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tabs li {
+  padding: 10px;
+  background-color: #ffeb3b;
+  border-right: 5px solid white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.tabs li.active,
+.tabs li:hover {
+  background-color: #faf5cb;
+}
+
+.content {
+  background-color: #faf5cb;
+  width: 400px;
+}
+
+.content > div {
+  padding: 20px;
+}
+
+.content > div:not(:first-child) {
+  display: none;
+}
