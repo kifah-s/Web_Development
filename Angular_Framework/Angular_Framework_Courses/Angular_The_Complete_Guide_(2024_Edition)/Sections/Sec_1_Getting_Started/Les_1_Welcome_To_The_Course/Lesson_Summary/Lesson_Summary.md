@@ -1,3 +1,3 @@
 ## Lesson Summary:
 
-Hello Angular.
+- Hello Angular.
