@@ -1,0 +1,1 @@
+## Lesson 16: Styling the Header Component & Adding An Image.
