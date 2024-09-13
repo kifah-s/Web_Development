@@ -1,0 +1,3 @@
+## Lesson Summary:
+
+- @Input({ required: true }) .....
