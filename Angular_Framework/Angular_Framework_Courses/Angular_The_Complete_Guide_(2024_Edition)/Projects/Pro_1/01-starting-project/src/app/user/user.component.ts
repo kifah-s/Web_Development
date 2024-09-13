@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-user',
@@ -8,6 +8,14 @@ import { Component } from '@angular/core';
   styleUrl: './user.component.css',
 })
 export class UserComponent {
-  //* On Select User.
+  // Input.
+  @Input() avatar!: string;
+  @Input() name!: string;
+
+  // Getter.
+  get imagePath() {
+    return 'assets/users/' + this.avatar;
+  }
+
   onSelectUser() {}
 }
