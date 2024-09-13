@@ -1,6 +1,12 @@
 <div>
   <button (click)="onSelectUser()">
+    <!--* State
     <img [src]="imagePath" [alt]="selectedUser.name" />
     <span> {{ selectedUser.name }} </span>
+    -->
+
+    <!--* Signal. -->
+    <img [src]="imagePath()" [alt]="selectedUser().name" />
+    <span> {{ selectedUser().name }} </span>
   </button>
 </div>
