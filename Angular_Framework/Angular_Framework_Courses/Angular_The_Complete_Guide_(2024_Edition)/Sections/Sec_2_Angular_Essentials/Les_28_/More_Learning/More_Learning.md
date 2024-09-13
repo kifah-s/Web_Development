@@ -1,4 +1,4 @@
-## Lesson Summary:
+## More Learning:
 
 In the context of **Angular**, **Signals** is a new concept introduced to provide a more efficient way to handle data changes and update the user interface. Signals were introduced as part of **Angular 16** and beyond, aiming to enhance application performance by offering a more reactive and interactive model for managing data.
 

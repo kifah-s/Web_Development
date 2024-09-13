@@ -1,3 +1,3 @@
 ## Lesson Summary:
 
-- Create "Header Component".
+- Create First Custom Component "Header Component".
