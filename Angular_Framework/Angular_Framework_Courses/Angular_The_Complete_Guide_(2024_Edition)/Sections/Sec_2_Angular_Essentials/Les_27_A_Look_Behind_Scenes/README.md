@@ -1,0 +1,1 @@
+## Lesson 27: A Look Behind The Scenes Of Angular's Change Detection Mechanism.
