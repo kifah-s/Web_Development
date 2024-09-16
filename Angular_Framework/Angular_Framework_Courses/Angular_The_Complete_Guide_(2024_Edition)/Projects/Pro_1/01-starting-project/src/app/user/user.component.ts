@@ -14,10 +14,7 @@ export class UserComponent {
   @Input({ required: true }) name!: string;
 
   // Output.
-  // @Output() select = new EventEmitter();
-
-  // output.
-  select = output<string>();
+  @Output() select = new EventEmitter<string>();
 
   // Getter.
   get imagePath() {
