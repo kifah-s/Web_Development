@@ -1,0 +1,1 @@
+## Lesson 40: TypeScript: Type Aliases & Interfaces.
