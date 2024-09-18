@@ -1,1 +1,1 @@
-## Lesson : Adding More Components to the Demo App.
+## Lesson 44: Adding More Components to the Demo App.
