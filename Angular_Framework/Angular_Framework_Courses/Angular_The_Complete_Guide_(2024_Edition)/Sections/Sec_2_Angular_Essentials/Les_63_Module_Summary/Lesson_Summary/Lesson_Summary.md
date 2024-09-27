@@ -1,0 +1,21 @@
+## Lesson Summary:
+
+- Component.
+- @Input.
+- @Output.
+- {{ ..... }}
+- [src] = "....."
+- (click) = "....."
+- [(ngModel)] = "....."
+- Signal
+- @if
+- \*ngIf
+- @for
+- \*ngFor
+- ng-content
+- Pipe
+- ngSubmit
+- service
+- @Injectable
+- constructor
+- inject
