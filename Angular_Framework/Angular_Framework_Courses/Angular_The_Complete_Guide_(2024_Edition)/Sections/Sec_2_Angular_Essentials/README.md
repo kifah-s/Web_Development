@@ -1,1 +1,1 @@
-## Section 2: Angular Essentials - Components, Templates, Services & More.
+## Section 2: Angular Essentials 1 - Components, Templates, Services & More.
