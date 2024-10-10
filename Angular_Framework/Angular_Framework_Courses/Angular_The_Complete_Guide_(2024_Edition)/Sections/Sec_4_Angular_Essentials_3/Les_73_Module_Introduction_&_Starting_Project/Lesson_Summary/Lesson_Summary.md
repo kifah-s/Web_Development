@@ -1,3 +1,3 @@
 ## Lesson Summary:
 
-- Module Introduction & Starting Project.
+- Apply Your knowledge & Practice What You Learned.

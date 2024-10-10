@@ -1,8 +1,9 @@
 ## Lesson Summary:
 
-#### Angular Essentials:
+- Understanding Angular Project Structure.
 
-    - Understanding angular project structure.
-    - Working with components.
-    - Handling user effect.
-    - Rendering & updating dynamic ui content.
+- Working With Components.
+
+- Handling User Event.
+
+- Rendering & Updating Dynamic UI Content.

@@ -1,3 +1,3 @@
 ## Lesson Summary:
 
-- Module Introduction.
+- Understanding Angular Modules (NgModule).
