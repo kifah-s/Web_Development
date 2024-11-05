@@ -3,3 +3,7 @@
 #### (ChatGPT)
 
 ---
+
+#### (Google Gemini)
+
+---
