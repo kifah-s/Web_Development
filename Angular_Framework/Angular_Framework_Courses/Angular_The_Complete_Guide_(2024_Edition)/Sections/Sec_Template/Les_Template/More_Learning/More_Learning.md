@@ -4,6 +4,10 @@
 
 ---
 
-#### (Google Gemini)
+#### (Gemini)
+
+---
+
+#### (Copilot)
 
 ---
