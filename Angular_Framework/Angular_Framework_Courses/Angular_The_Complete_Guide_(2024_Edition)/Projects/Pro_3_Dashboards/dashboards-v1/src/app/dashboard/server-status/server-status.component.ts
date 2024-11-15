@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-server-status',
@@ -7,8 +7,10 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
   templateUrl: './server-status.component.html',
   styleUrl: './server-status.component.css',
 })
-export class ServerStatusComponent implements OnInit, AfterViewInit {
+export class ServerStatusComponent implements OnInit, OnDestroy {
   currentStatus: 'online' | 'offline' | 'unknown' = 'offline';
+
+  private interval?: ReturnType<typeof setInterval>;
 
   // constructor() {
   //   setInterval(() => {
@@ -27,7 +29,7 @@ export class ServerStatusComponent implements OnInit, AfterViewInit {
   ngOnInit() {
     console.log('OnINIT');
 
-    setInterval(() => {
+    this.interval = setInterval(() => {
       const rnd = Math.random(); // 0 - 1
 
       if (rnd < 0.5) {
@@ -42,5 +44,9 @@ export class ServerStatusComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit() {
     console.log('AFTER VIEW INIT');
+  }
+
+  ngOnDestroy() {
+    clearTimeout(this.interval);
   }
 }
