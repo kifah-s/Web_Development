@@ -11,7 +11,7 @@ import { AuthDirective } from './auth/auth.directive';
   standalone: true,
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  imports: [AuthComponent, LearningResourcesComponent, NgIf, AuthDirective],
+  imports: [AuthComponent, LearningResourcesComponent, AuthDirective],
 })
 export class AppComponent {
   private authService = inject(AuthService);
