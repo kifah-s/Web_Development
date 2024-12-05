@@ -1,5 +1,7 @@
 ## Lesson Summary:
 
+- Module Introduction:
+
 - What are Pipes ?
 
 - Built-in Pipes.
