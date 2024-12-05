@@ -2,4 +2,4 @@
 
 - Using Built-in Pipes:
 
-- DatePipe
+- DatePipe: | date
