@@ -1,9 +1,0 @@
-## More Learning:
-
-#### (ChatGPT)
-
----
-
-#### (Gemini)
-
----
